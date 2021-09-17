@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookings</title>
+    <script src="../javascript/script.js" defer></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body id="pagetop">
+    <header class="header" id="menu"></header>
+
+
+    <main>
+        <section>
+
+
+            <header>
+                <h1 class="titleofpage">MAKE A BOOKING</h1>
+                <p></p>
+                <p></p>
+            </header>
+            <div class="booking-container">
+                <form>
+                    <fieldset>
+                        <legend>Ready to lock in your date? Fill in the form to secure us for your event</legend>
+                        <ul class="booking-flex-outer">
+                            <li>
+                                <label for="first-name">First Name</label>
+                                <input type="text" id="first-name" placeholder="Enter your first name here">
+                            </li>
+                            <li>
+                                <label for="last-name">Last Name</label>
+                                <input type="text" id="last-name" placeholder="Enter your last name here">
+                            </li>
+                            <li>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="Enter your email here">
+                            </li>
+                            <li>
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" placeholder="Enter your phone here">
+                            </li>
+                            <li>
+                                <label for="calendardate">Date of Event:</label>
+                                <input type="date" id="calendardate" name="calendardate">
+                            </li>
+                            <li>
+                                <label for="eventtime">Select a time:</label>
+                                <input type="time" id="eventtime" name="eventtime">
+                            </li>
+                            <li>
+                                <p>Photography style required:</p>
+                                <ul class="booking-flex-inner">
+                                    <li>
+                                        <input type="checkbox" id="Wedding">
+                                        <label for="Wedding">Wedding</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="Lifestyle">
+                                        <label for="Lifestyle">Lifestyle</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="Portrait">
+                                        <label for="Portrait">Portrait</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="Nature">
+                                        <label for="Nature">Nature</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" id="other">
+                                        <label for="other">Other</label>
+                                    </li>
+                                </ul>
+
+                            <li>
+                                <button type="submit">Confirm Booking</button>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer" id="myFootermenu"></footer>
+    <script src="../javascript/script.js"></script>
+</body>
+
+</html>
